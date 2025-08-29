@@ -15,12 +15,12 @@ function changeDescStyle() {
 
   const currentColor = window.getComputedStyle(subtitle).color;
 
-  if (currentColor === "rgb(145, 0, 0)") {
-    subtitle.style.color = "#000000ff";
-    text.style.color = "#000000ff";
+  if (currentColor === "rgb(248, 209, 209)") {
+    subtitle.style.color = "#ffffffff";
+    text.style.color = "#ffffffff";
   } else {
-    subtitle.style.color = "#910000ff";
-    text.style.color = "#dd0000ff";
+    subtitle.style.color = "rgb(248, 209, 209)";
+    text.style.color = "rgb(219, 166, 166)";
   }
 }
 
