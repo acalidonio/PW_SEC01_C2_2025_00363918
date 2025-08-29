@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML & CSS: Curso práctico avanzado</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">HTML & CSS: Curso práctico avanzado</h1>
+      <div class="actions">
+        <button onclick="changeTitle()">Cambiar título</button>
+        <button onclick="changeDescStyle()">
+          Cambiar estilo descripción
+        </button>
+        <button onclick="orderContent()">Ordenar contenido</button>
+        <button onclick="addImage()">Agregar imagen</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="book-data">
+        <h2 id="subtitle-data">Datos del libro</h2>
+        <ul>
+          <li>Título: HTML & CSS: Curso práctico avanzado</li>
+          <li>Autor: Sergio Luján Mora</li>
+          <li>Editorial: Publicaciones Altaria</li>
+          <li>Año: 2015</li>
+          <li>ISBN: 978-84-944049-4-8</li>
+        </ul>
+        <div id="image"></div>
+      </section>
+
+      <section class="description">
+        <h2 id="subtitle-description">Descripción del libro</h2>
+        <p id="description-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus mi pretium felis euismod pellentesque. Donec rhoncus scelerisque ligula, ac egestas justo vulputate ut. Maecenas laoreet ante sed nisi molestie semper. Donec tempus eleifend felis, eget lacinia quam rutrum ac. Proin a magna imperdiet, rhoncus ligula nec, gravida enim. <br>Phasellus fermentum varius tempor. Ut eu ligula tincidunt, pharetra urna non, efficitur ligula. Vivamus cursus ipsum non velit fermentum, ut tristique nulla rhoncus. Cras mauris dolor, hendrerit non suscipit a, hendrerit eget enim. Quisque cursus viverra quam, nec interdum leo lacinia non. Cras nec neque a diam gravida mattis nec vitae ipsum. Cras lobortis, magna in iaculis iaculis, nisl lectus tempor turpis, et pharetra nulla eros a tortor. <br>Aenean condimentum dui nec aliquet ullamcorper. Aenean condimentum est id est condimentum pharetra. Proin suscipit eleifend tortor, facilisis blandit ligula viverra eget.
+        </p>
+      </section>
+
+      <section class="book-content">
+        <h2 id="subtitle-content">Contenido del libro</h2>
+        <p id="content-text">El contenido de este libro se estructura en tres apartados bien diferenciados:</p>
+        <div class="columns">
+          <div class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus mi pretium felis euismod pellentesque. Donec rhoncus scelerisque ligula, ac egestas justo vulputate ut. Maecenas laoreet ante sed nisi molestie semper. Donec tempus eleifend felis, eget lacinia quam rutrum ac. Proin a magna imperdiet, rhoncus ligula nec, gravida enim. Phasellus fermentum varius tempor. Ut eu ligula tincidunt, pharetra urna non, efficitur ligula. Vivamus cursus ipsum non velit fermentum, ut tristique nulla rhoncus.</div>
+          <div class="column">Aenean condimentum dui nec aliquet ullamcorper. Aenean condimentum est id est condimentum pharetra. Proin suscipit eleifend tortor, facilisis blandit ligula viverra eget.
+          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras facilisis massa vitae erat iaculis dignissim. Curabitur rutrum mauris a pharetra pellentesque. Aenean laoreet suscipit justo, eu fringilla nulla viverra id. </div>
+          <div class="column">In venenatis, massa ac fermentum tempor, augue mauris viverra lacus, et gravida tortor tellus at risus. Aenean quis libero massa. Nunc eget massa vitae arcu interdum porttitor vel sed libero. Ut id nulla feugiat, euismod nisl sit amet, tincidunt elit. Cras at elementum metus, id placerat est. </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
